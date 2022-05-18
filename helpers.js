@@ -14,6 +14,7 @@ exports.getPoolImmutables = async (poolContract) => {
 }
 
 exports.getPoolState = async (poolContract) => {
+  // await ?
   const slot = poolContract.slot0()
 
   const state = {
